@@ -1,3 +1,4 @@
-function playMyAudio(){
-    document.getElementById("myAudio").play();
-  }
+<script>  document.getElementById("horn").addEventListener("click",function(){
+       document.getElementById("horn").play()}
+    );
+</script>
