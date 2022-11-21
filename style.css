@@ -5,7 +5,7 @@ body {
     background: #f6dff4;
     }
     
-#button {
+button {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100px;
     color: #fff;
@@ -15,7 +15,7 @@ body {
     transition: opacity .2s;
     }
     
- #button:hover {
+ button:hover {
     cursor: pointer;
     background: #3a393a;
     }
