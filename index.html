@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Soundboard</title>
 </head>
 <body>
-    <button type="button">Click Me!</button>
-    <button type="button">Click Me!</button>
-    <button type="button">Click Me!</button>
+    <audio id="bubbles" src="bubbles_sfx.wav" preload="auto">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    
+    <div class="buttons">
+      <button id="play">Play 1</button>
+      <button id="reset">Play 2</button>
+    </div>
 </body>
 </html>
